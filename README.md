@@ -3,3 +3,5 @@
 Scripts para automatizar tareas
 
 *arreglar el emacsconf*
+
+*god = master*
