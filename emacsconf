@@ -5,3 +5,4 @@ touch /home/.emacs && echo "(setq c-default-style \"bsd\"
 (require 'whitespace)
 (setq whitespace-style '(face empty lines-tail trailing))
 (global-whitespace-mode t)" >> /home/.emacs 
+##credits of @mellab
