@@ -1,1 +1,0 @@
-betty.sh && emacsconf
