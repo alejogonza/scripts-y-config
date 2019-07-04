@@ -2,4 +2,4 @@
 
 Scripts para automatizar tareas
 
-*god = master*
+*god = ejecuta emacsconf y betty.sh al mismo tiempo*
