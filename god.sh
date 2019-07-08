@@ -1,1 +1,1 @@
-betty.sh && emacsconf
+./betty.sh && ./emacsconf.sh
