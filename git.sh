@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# credenciales
+git config --global user.email "alejo.1996.2001@gmail.com"
+
+git config --global user.name "alejogonza"
+
 # Guarda las credenciales de git de forma indefinida
 git config credential.helper store
 
