@@ -1,1 +1,1 @@
-mv 3-strcmp cfiles/ && 3-main.c mains/
+mv $FILE3 cfiles/ && mv $FILE1 mains/
