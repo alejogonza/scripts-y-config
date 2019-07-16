@@ -4,5 +4,5 @@ touch /home/.emacs && echo "(setq c-default-style \"bsd\"
      indent-tabs-mode t)
 (require 'whitespace)
 (setq whitespace-style '(face empty lines-tail trailing))
-(global-whitespace-mode t)" >> /home/.emacs 
+(global-whitespace-mode t)" >> /home/.emacs
 ##credits of @mellab

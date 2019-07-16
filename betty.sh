@@ -21,4 +21,3 @@ for argument in "$@" ; do
 done" > betty
 chmod a+x betty
 sudo mv betty /bin/
-rm -r ./Betty/
