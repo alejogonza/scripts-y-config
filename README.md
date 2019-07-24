@@ -6,4 +6,6 @@ Scripts para automatizar tareas
 
 el mejor script git.sh
 
+haz un fork y deja una estrella :)
+
 Gracias a [mellab](https://github.com/mellab) por emacsconf script.
