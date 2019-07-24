@@ -16,5 +16,8 @@ git config credential.helper store
 git add .
 
 # Hago un commit con el nombre del script
-git commit -m "$action $1 script"
+echo "Enter your comment: "
+read comment
+git commit -m "$comment"
 git push
+
