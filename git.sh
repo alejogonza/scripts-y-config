@@ -13,11 +13,12 @@ git config credential.helper store
 [[ -f "$1" ]] && export action="Update"
 
 # Agrego el archivo a git
-git add .
+echo "Enter the files to update: "
+read gitfiles
+git add "$gitfiles"
 
 # Hago un commit con el nombre del script
 echo "Enter your comment: "
 read comment
 git commit -m "$comment"
 git push
-
