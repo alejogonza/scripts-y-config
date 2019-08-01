@@ -8,10 +8,6 @@ git config --global user.name "alejogonza"
 # Guarda las credenciales de git de forma indefinida
 git config credential.helper store
 
-# En caso de que el archivo ya exista indicamos que
-# vamos a actualizar
-[[ -f "$1" ]] && export action="Update"
-
 # Agrego el archivo a git
 echo "Enter the files to update: "
 read gitfiles
