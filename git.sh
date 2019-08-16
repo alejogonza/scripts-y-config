@@ -17,4 +17,6 @@ git add "$gitfiles"
 echo "Enter your comment: "
 read comment
 git commit -m "$comment"
-git push
+echo "Enter your branch: "
+read branch
+git push origin "$branch"
