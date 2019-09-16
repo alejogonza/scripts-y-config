@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # credenciales
-git config --global user.email "alejo.1996.2001@gmail.com"
+#git config --global user.email "alejo.1996.2001@gmail.com"
 
-git config --global user.name "alejogonza"
+#git config --global user.name "alejogonza"
 
 # Guarda las credenciales de git de forma indefinida
-git config credential.helper store
+#git config credential.helper store
 
 # Agrego el archivo a git
 echo "Enter the files to update: "
