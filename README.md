@@ -13,3 +13,6 @@ crea o edita el ~/.emacs y incluye lo que hay en emacs.txt
 haz un fork y deja una estrella :)
 
 Gracias a [mellab](https://github.com/mellab) por emacsconf script.
+
+comando util
+curl -Lso "hidden_4.pyc" "https://github.com/holbertonschool/0x02.py/raw/master/hidden_4.pyc"
