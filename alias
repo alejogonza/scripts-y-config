@@ -1,0 +1,18 @@
+# sudo -s
+alias s='sudo -s'
+
+# chmod u+x
+alias e='chmod u+x'
+
+# pyton remove
+alias rpy='rm -r  __pycache__'
+
+# clear
+alias c='clear'
+
+# show process of port
+
+alias port='_(){ netstat -punlt |grep :$1; }; _'
+
+# kill process
+alias portkill='kill -9'

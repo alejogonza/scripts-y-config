@@ -5,8 +5,11 @@
 
 #git config --global user.name "alejogonza"
 
+# solo py
+pep8 *.py
+
 # Guarda las credenciales de git de forma indefinida
-#git config credential.helper store
+git config credential.helper store
 
 # Agrego el archivo a git
 echo "Enter the files to update: "
