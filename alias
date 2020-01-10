@@ -1,3 +1,9 @@
+# create alias and reboot bashrc
+alias bashrc="nano ~/.bashrc && source ~/.bashrc"
+
+# make dir and enter it
+alias mdir='_(){ mkdir $1 && cd $1; }; _'
+
 # sudo -s
 alias s='sudo -s'
 
